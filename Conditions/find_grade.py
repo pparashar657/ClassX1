@@ -18,7 +18,7 @@ if (marks < 70):
 
 
 '''
-
+'''
 if (marks >= 90):
     grade = 'A'
 else:
@@ -29,5 +29,16 @@ else:
             grade = 'C'
         else:
             grade = 'F'
+
+'''
+
+if (marks >= 90):
+    grade = 'A'
+elif (marks >= 80):
+    grade = 'B'
+elif (marks >= 70):
+    grade = 'C'
+else:
+    grade = 'F'
 
 print(f'The grade for {marks} marks =', grade)
