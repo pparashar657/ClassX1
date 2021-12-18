@@ -1,26 +1,25 @@
-n = int(input('How many fibonacci numbers you want to print ? '))
+#n = int(input('How many fibonacci numbers you want to print ? '))
 
-first = 1
+max = int(input('Enter the upper limit ? '))
+
+first = 0
 second = 1
-#count = 2
+third = 1
 
 print(first, second, end=" ")
 
-'''
-while(count < n):
-    third = first + second
+while(third < max):
     print(third, end=" ")
+    third = first + second
     first = second
     second = third
-    count += 1
-print()
-print(first, second, third)
+
 
 '''
-
-
 for i in range(2, n):
     third = first + second
     print(third, end=" ")
     first = second
     second = third
+
+'''
