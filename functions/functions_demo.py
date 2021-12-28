@@ -17,9 +17,17 @@ say_hello_name("Adi")
 
 
 def addTwo(num1, num2):
-    print(num1, num2)
     ans = num1 + num2
     print(ans)
 
 
-addTwo(10, 15)
+def add_two_with_return(num1, num2):
+    ans = num1 + num2
+    return ans
+
+
+#addTwo(10, 15)
+#addTwo(100, 35)
+
+sum = add_two_with_return(10, 15)
+print(sum)
