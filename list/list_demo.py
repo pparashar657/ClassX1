@@ -21,7 +21,7 @@ a = my_list[3] * 2 + my_list[0]
 print(a)
 
 '''
-
+'''
 my_list = [1, 5, 2, 6]
 
 print(my_list)
@@ -58,3 +58,14 @@ print(type(kartik[0]))
 kartik[0] = 19
 
 print(kartik)
+
+
+'''
+
+
+list = [5, 1, 7, "3", 17, 98.34]
+
+print(list[3])
+print(list[-3])
+
+print(type(list[3]))
