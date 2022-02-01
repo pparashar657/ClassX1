@@ -20,3 +20,16 @@ print(sum(list))
 # Average:
 
 print(sum(list) / len(list))
+
+# Max:
+
+print(max(list))
+
+# Min:
+print(min(list))
+
+# sorted: Sort the list, but do not change the original
+
+print(sorted(list))
+
+print(list)
