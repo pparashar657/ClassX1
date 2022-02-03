@@ -47,11 +47,11 @@
 # my_list1 = [1, 2, 3]
 # my_list2 = [4, 5, 6]
 
-# # my_list1.extend(my_list2)
-# # my_list2.extend(my_list1)
+# my_list1.extend(my_list2)
+# my_list2.extend(my_list1)
 
-# my_list1 += my_list2
-# my_list2 += my_list1
+# # my_list1 += my_list2
+# # my_list2 += my_list1
 
 # print(my_list1)
 # print(my_list2)
@@ -69,9 +69,9 @@
 # print(my_list)
 
 
-# my_list = [1, 7, 3, 8, 9, 3]
+my_list = [1, 7, 3, 8, 9, 3]
 
-# # Count: Count frequency of a number
+# Count: Count frequency of a number
 
 # print(my_list.count(1))
 # print(my_list.count(3))
@@ -83,8 +83,8 @@
 
 # print(my_list.index(3))
 
-# # This will give error
-# # print(my_list.index(13))
+# This will give error
+# print(my_list.index(13))
 
 # # Remove : removes an item from list, only the first occurence | return None
 
@@ -94,13 +94,13 @@
 # my_list.remove(3)
 # print(my_list)
 
-# # my_list.remove(13)
+# my_list.remove(13)
 
 # print(my_list)
 
 # # pop: removes the element corresponding to the given index
-# # idx = 2
-# # my_list.remove(my_list[idx])
+# idx = 2
+# my_list.remove(my_list[idx])
 
 # my_list.pop(2)
 
