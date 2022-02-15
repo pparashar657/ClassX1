@@ -1,15 +1,15 @@
 
-# a = (10, 20)
+a = (10, 20)
 
-# print(a)
-# print(type(a))
+print(a)
+print(type(a))
 
-# x, y = (10, "Pawan")
+x, y = (10, "Pawan")
 
-# print(x)
-# print(y)
-# print(type(x))
-# print(type(y))
+print(x)
+print(y)
+print(type(x))
+print(type(y))
 
 
 # def findSumAndMax(my_list):
