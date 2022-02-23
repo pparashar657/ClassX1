@@ -1,8 +1,6 @@
 
 # len
 
-from curses.ascii import isalnum
-
 
 str = "Pawan is a good boy"
 
