@@ -1,9 +1,6 @@
 # Ques 1
 # Find the second max of a list
 
-from multiprocessing.sharedctypes import Value
-
-
 def secondMax(my_list):
     my_max = 0
     max_2 = 0
