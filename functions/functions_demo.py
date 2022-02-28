@@ -29,5 +29,7 @@ def add_two_with_return(num1, num2):
 addTwo(10, 15)
 addTwo(100, 35)
 
-sum = add_two_with_return(10, 15)
+num2 = 10
+
+sum = add_two_with_return(num2, 15)
 print("Sum with return function = ", sum)

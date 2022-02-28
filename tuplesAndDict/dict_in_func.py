@@ -13,6 +13,7 @@ my_dict = {
 new_dict = my_dict
 
 my_dict['Mango'] = 190
+print(my_dict.get('Mango'))
 
 print(my_dict)
 print(new_dict)
